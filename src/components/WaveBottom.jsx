@@ -2,7 +2,7 @@ import React from "react";
 
 const WaveBottom = ({ color }) => {
   return (
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 319">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 150">
       <path
         fill={color}
         fill-opacity="1"

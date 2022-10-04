@@ -1,21 +1,21 @@
-import { Box, Text, Flex, Image } from "@chakra-ui/react";
+import { Box, Text, Image, Flex } from "@chakra-ui/react";
 import WaveBottom from "../WaveBottom";
 import WaveTop from "../WaveTop";
-import styles from "./Projects.module.css";
+import styles from "./TechnologyStack.module.css";
 import { useInView } from "react-intersection-observer";
 
-const Projects = () => {
-  const { ref: projectRef, inView: projectInView } = useInView();
+const TechnologyStack = () => {
+  const { ref: techRef, inView: techInView } = useInView();
   return (
     <Box>
-      <WaveTop mt={0} color={"var(--chakra-colors-projects)"} />
+      <WaveTop mt={0} color={"var(--chakra-colors-techstack)"} />
       <Flex
         width={"100%"}
-        background={"var(--chakra-colors-projects)"}
-        direction={{ base: "column", md: "row" }}
+        background={"var(--chakra-colors-techstack)"}
+        direction={{ base: "column", md: "row-reverse" }}
       >
         <Flex
-          ref={projectRef}
+          ref={techRef}
           direction={{ base: "row", md: "column" }}
           width={{ base: "100%", md: "25%" }}
           paddingRight={{ md: "20px" }}
@@ -28,7 +28,7 @@ const Projects = () => {
             height: { base: "2px", md: "70%" },
             width: { base: "50%", md: "2px" },
             position: "absolute",
-            right: { base: "25%", md: "0" },
+            left: { base: "25%", md: "0" },
             top: { md: "15%" },
             bottom: { base: "0", md: "15%" },
             backgroundColor: "var(--chakra-colors-gray-600)",
@@ -40,23 +40,22 @@ const Projects = () => {
             fontSize={"30px"}
             fontWeight={700}
             color={"var(--chakra-colors-gray-600)"}
-            className={`${styles.title} ${projectInView ? styles.goUp : ""}`}
+            className={`${styles.title} ${techInView ? styles.goUp : ""}`}
           >
-            <span className={styles.span}>My</span> projects
+            Tech <span className={styles.span}>stack</span>
           </Text>
           <Image
             paddingLeft={"20px"}
-            paddingTop={"20px"}
-            src="https://i.imgur.com/abVe9vT.png"
+            src="https://i.imgur.com/viSoers.png"
             width={{ base: "25%", md: "100%" }}
-            className={`${projectInView ? styles.goUp : ""}`}
+            className={`${techInView ? styles.goUp : ""}`}
           />
         </Flex>
         <Box flexGrow={{ md: 1 }} height={{ base: "150px", md: "auto" }}></Box>
       </Flex>
-      <WaveBottom mt={0} color={"var(--chakra-colors-projects)"} />
+      <WaveBottom mt={0} color={"var(--chakra-colors-techstack)"} />
     </Box>
   );
 };
 
-export default Projects;
+export default TechnologyStack;

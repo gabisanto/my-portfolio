@@ -1,21 +1,21 @@
 import { Box, Text, Flex, Image } from "@chakra-ui/react";
 import WaveBottom from "../WaveBottom";
 import WaveTop from "../WaveTop";
-import styles from "./Projects.module.css";
+import styles from "./About.module.css";
 import { useInView } from "react-intersection-observer";
 
-const Projects = () => {
-  const { ref: projectRef, inView: projectInView } = useInView();
+const About = () => {
+  const { ref: aboutRef, inView: aboutInView } = useInView();
   return (
     <Box>
-      <WaveTop mt={0} color={"var(--chakra-colors-projects)"} />
+      <WaveTop mt={0} color={"var(--chakra-colors-about)"} />
       <Flex
         width={"100%"}
-        background={"var(--chakra-colors-projects)"}
+        background={"var(--chakra-colors-about)"}
         direction={{ base: "column", md: "row" }}
       >
         <Flex
-          ref={projectRef}
+          ref={aboutRef}
           direction={{ base: "row", md: "column" }}
           width={{ base: "100%", md: "25%" }}
           paddingRight={{ md: "20px" }}
@@ -40,23 +40,22 @@ const Projects = () => {
             fontSize={"30px"}
             fontWeight={700}
             color={"var(--chakra-colors-gray-600)"}
-            className={`${styles.title} ${projectInView ? styles.goUp : ""}`}
+            className={`${styles.title} ${aboutInView ? styles.goUp : ""}`}
           >
-            <span className={styles.span}>My</span> projects
+            About <span className={styles.span}>me</span>
           </Text>
           <Image
             paddingLeft={"20px"}
-            paddingTop={"20px"}
-            src="https://i.imgur.com/abVe9vT.png"
+            src="https://i.imgur.com/9YdNXAf.png"
             width={{ base: "25%", md: "100%" }}
-            className={`${projectInView ? styles.goUp : ""}`}
+            className={`${aboutInView ? styles.goUp : ""}`}
           />
         </Flex>
         <Box flexGrow={{ md: 1 }} height={{ base: "150px", md: "auto" }}></Box>
       </Flex>
-      <WaveBottom mt={0} color={"var(--chakra-colors-projects)"} />
+      <WaveBottom mt={0} color={"var(--chakra-colors-about)"} />
     </Box>
   );
 };
 
-export default Projects;
+export default About;
