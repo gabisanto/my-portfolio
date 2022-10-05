@@ -1,11 +1,14 @@
 import { Box, Text, Flex, Image } from "@chakra-ui/react";
+import { useContext } from "react";
 import WaveBottom from "../WaveBottom";
 import WaveTop from "../WaveTop";
 import styles from "./About.module.css";
 import { useInView } from "react-intersection-observer";
+import LanguageContext from "../../context/LanguageContext";
 
 const About = () => {
   const { ref: aboutRef, inView: aboutInView } = useInView();
+  const { text } = useContext(LanguageContext);
   return (
     <Box>
       <WaveTop mt={0} color={"var(--chakra-colors-about)"} />
@@ -51,7 +54,11 @@ const About = () => {
             className={`${aboutInView ? styles.goUp : ""}`}
           />
         </Flex>
-        <Box flexGrow={{ md: 1 }} height={{ base: "150px", md: "auto" }}></Box>
+        <Box flexGrow={{ md: 1 }} height={{ base: "150px", md: "auto" }}>
+          <Text>
+            {text.greeting} {text.name}
+          </Text>
+        </Box>
       </Flex>
       <WaveBottom mt={0} color={"var(--chakra-colors-about)"} />
     </Box>

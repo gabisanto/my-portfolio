@@ -1,0 +1,26 @@
+{
+  "en": {
+    "icon": "https://i.imgur.com/FCQHlwA.png",
+    "greeting": "hi! I'm ",
+    "name": "gabi",
+    "title": "fullstack developer",
+    "aboutTitle": ["about", "me"],
+    "aboutText": [
+      "I grew up surrounded by computers, but I never considered a career in anything related to IT until the pandemic gave me lots of hours to experiment. From that moment onwards, I started a fast-paced road into web development and programming. Now, I feel like the hours in a day are not enough to learn everything that I want.",
+      "In order to continue nurturing that newfound passion and continue this unexpected journey, I would love to enter the IT world to give all my dedication, excitement, and motivation to keep learning."
+    ],
+    "footerTitle": "Let's talk!"
+  },
+  "es": {
+    "icon": "https://i.imgur.com/JdvM1EY.png",
+    "greeting": "hola! soy ",
+    "name": "gabi",
+    "title": "desarrolladora fullstack",
+    "aboutTitle": ["sobre", "mí"],
+    "aboutText": [
+      "Crecí entre computadoras pero nunca me había planteado seguir nada relacionado a la tecnología hasta que la pandemia me regaló horas libres para experimentar. A partir de ahí fue un vertiginoso y acelerado camino hacia el desarrollo que me hace sentir que las horas del día no son suficientes para absorber todo el conocimiento que deseo.",
+      "Hoy me encuentro intentando ingresar al rubro IT para continuar este camino que se abrió inesperadamente y al cual estoy convencida puedo aportar mi motivación y dedicación."
+    ],
+    "footerTitle": "Hablemos!"
+  }
+}

@@ -1,0 +1,45 @@
+.navbar {
+  position: fixed;
+  z-index: 9999;
+  width: 100%;
+  padding: 0.5rem;
+  display: flex;
+  justify-content: center;
+  transition: ease-out 0.5s;
+}
+
+.navbar.bg-active {
+  background: #181d23;
+}
+
+.navbar .navwrapper {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1400px;
+  padding: 0 2rem;
+}
+
+.navbar .brand {
+  font-size: 1.4rem;
+  cursor: default;
+}
+
+@media (max-width: 768px) {
+  .navbar .brand {
+    font-size: 1rem;
+    cursor: default;
+  }
+}
+
+.scrollnavbar {
+  background: #949da8aa;
+  backdrop-filter: blur(12px);
+  color: #fafafa;
+  transition: ease-out 0.5s;
+}
+
+.option {
+  background: transparent;
+}
