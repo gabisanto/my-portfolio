@@ -6,8 +6,9 @@
     "title": "fullstack developer",
     "aboutTitle": ["about", "me"],
     "aboutText": [
-      "I grew up surrounded by computers, but I never considered a career in anything related to IT until the pandemic gave me lots of hours to experiment. From that moment onwards, I started a fast-paced road into web development and programming. Now, I feel like the hours in a day are not enough to learn everything that I want.",
-      "In order to continue nurturing that newfound passion and continue this unexpected journey, I would love to enter the IT world to give all my dedication, excitement, and motivation to keep learning."
+      "All my life I said that I love things that <span>make sense</span>, thus I followed a career in science. However I realized it was not the right fit, and I kept looking for my call in life while I explored other passions like SCUBA diving and learning languages.",
+      "Even though I grew up surrounded by computers, I never considered a career in anything related to IT until the COVID-19 pandemic gave me lots of hours to experiment and research. From that moment onwards, I started a fast-paced road into web development and programming. Now, I feel like the hours in a day are not enough to learn everything that I want.",
+      "The logic filled career I have been looking for is within reach and I'm ready to walk that path with confidence and passion."
     ],
     "footerTitle": "Let's talk!"
   },
@@ -18,8 +19,9 @@
     "title": "desarrolladora fullstack",
     "aboutTitle": ["sobre", "mí"],
     "aboutText": [
-      "Crecí entre computadoras pero nunca me había planteado seguir nada relacionado a la tecnología hasta que la pandemia me regaló horas libres para experimentar. A partir de ahí fue un vertiginoso y acelerado camino hacia el desarrollo que me hace sentir que las horas del día no son suficientes para absorber todo el conocimiento que deseo.",
-      "Hoy me encuentro intentando ingresar al rubro IT para continuar este camino que se abrió inesperadamente y al cual estoy convencida puedo aportar mi motivación y dedicación."
+      "Toda mi vida dije que amo que las cosas tengan lógica, razón por la cual estudié ciencia e ingeniería. Sin embargo, sentí que no era la carrera que deseaba, y continué buscando mi vocación mientras desarrollaba otros intereses como buceo deportivo y aprendizaje de lenguas extranjeras.",
+      "Aunque crecí rodeada de computadoras, nunca consideré IT como una opción hasta que la pandemia de COVID-19 me dio muchas horas para experimentar e investigar. A partir de allí, comencé un camino acelerado hacia el desarrollo web y la programación. Ahora siento que las horas del día no son suficientes para aprender todo lo que me interesa.",
+      "La carrera llena de lógica que estuve buscando finalmente está frente a mí, y estoy lista para emprender este camino con confianza y pasión."
     ],
     "footerTitle": "Hablemos!"
   }

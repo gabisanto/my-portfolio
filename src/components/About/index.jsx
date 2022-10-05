@@ -54,11 +54,31 @@ const About = () => {
             className={`${aboutInView ? styles.goUp : ""}`}
           />
         </Flex>
-        <Box flexGrow={{ md: 1 }} height={{ base: "150px", md: "auto" }}>
-          <Text>
-            {text.greeting} {text.name}
+        <Flex
+          className={`${aboutInView ? styles.goUp : ""}`}
+          flexGrow={{ md: 1 }}
+          direction={"column"}
+          justify={"center"}
+          align={{ base: "center" }}
+          alignSelf={"center"}
+          width={{ base: "80%", md: "60%" }}
+          height={{ base: "auto", md: "auto" }}
+          paddingTop={{ base: "20px", md: "0px" }}
+          color={"var(--chakra-colors-gray-600)"}
+          fontSize={{ base: "12px", md: "14px" }}
+        >
+          <Text width={"90%"} paddingBottom={"20px"} textAlign="justify">
+            {text.aboutText[0]}
           </Text>
-        </Box>
+
+          <Text width={"90%"} paddingBottom={"20px"} textAlign="justify">
+            {text.aboutText[1]}
+          </Text>
+
+          <Text width={"90%"} textAlign="justify">
+            {text.aboutText[2]}
+          </Text>
+        </Flex>
       </Flex>
       <WaveBottom mt={0} color={"var(--chakra-colors-about)"} />
     </Box>
