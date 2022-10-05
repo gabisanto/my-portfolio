@@ -9,7 +9,11 @@ const Header = () => {
   const { text } = useContext(LanguageContext);
   return (
     <Box paddingTop={"70px"} backdropFilter="blur(12px)">
-      <Flex align={"center"} direction={{ base: "column", in: "row" }}>
+      <Flex
+        justify={{ in: "center" }}
+        align={"center"}
+        direction={{ base: "column", in: "row" }}
+      >
         <Player
           autoplay
           loop
