@@ -1,18 +1,77 @@
-{
-    "en": {
-        "greeting": "hi! I'm ",
-        "name": "gabi",
-        "title": "fullstack developer",
-        "aboutTitle": ["about", "me"],
-        "aboutText": ["I grew up surrounded by computers, but I never considered a career in anything related to IT until the pandemic gave me lots of hours to experiment. From that moment onwards, I started a fast-paced road into web development and programming. Now, I feel like the hours in a day are not enough to learn everything that I want.", "In order to continue nurturing that newfound passion and continue this unexpected journey, I would love to enter the IT world to give all my dedication, excitement, and motivation to keep learning."],
-        "footerTitle": "Let's talk!" 
-    },
-    "es":{
-        "greeting": "hola! soy ",
-    "name": "gabi",
-    "title": "desarrolladora fullstack",
-    "aboutTitle": ["sobre", "mí"],
-    "aboutText": ["Crecí entre computadoras pero nunca me había planteado seguir nada relacionado a la tecnología hasta que la pandemia me regaló horas libres para experimentar. A partir de ahí fue un vertiginoso y acelerado camino hacia el desarrollo que me hace sentir que las horas del día no son suficientes para absorber todo el conocimiento que deseo.", "Hoy me encuentro intentando ingresar al rubro IT para continuar este camino que se abrió inesperadamente y al cual estoy convencida puedo aportar mi motivación y dedicación."],
-    "footerTitle": "Hablemos!" 
-}
-}
+[
+  {
+    "id": 1,
+    "name": "HTML",
+    "url": "https://i.imgur.com/VhtwtK5.png"
+  },
+  {
+    "id": 2,
+    "name": "CSS",
+    "url": "https://i.imgur.com/5AcQeRd.png"
+  },
+  {
+    "id": 3,
+    "name": "JavaScript",
+    "url": "https://i.imgur.com/qOy8kxi.png"
+  },
+  {
+    "id": 5,
+    "name": "Chakra UI",
+    "url": "https://i.imgur.com/4YnWmnU.png"
+  },
+  {
+    "id": 6,
+    "name": "Material UI",
+    "url": "https://i.imgur.com/RMy6aSO.png"
+  },
+  {
+    "id": 7,
+    "name": "Tailwind CSS",
+    "url": "https://i.imgur.com/dYKFhQj.png"
+  },
+  {
+    "id": 8,
+    "name": "Sass",
+    "url": "https://i.imgur.com/kHfSlXi.png"
+  },
+  {
+    "id": 9,
+    "name": "React",
+    "url": "https://i.imgur.com/9l1sXkB.png"
+  },
+  {
+    "id": 10,
+    "name": "Redux",
+    "url": "https://i.imgur.com/PgJNyQg.png"
+  },
+  {
+    "id": 11,
+    "name": "Next.js",
+    "url": "https://i.imgur.com/i6mGlJc.png"
+  },
+  {
+    "id": 12,
+    "name": "Node.js",
+    "url": "https://i.imgur.com/nlwDb93.png"
+  },
+  {
+    "id": 13,
+    "name": "Express.js",
+    "url": "https://i.imgur.com/4TcpX9k.png"
+  },
+  {
+    "id": 14,
+    "name": "PostgreSQL",
+    "url": "https://i.imgur.com/IbzIAdY.png"
+  },
+  {
+    "id": 15,
+    "name": "MongoDB",
+    "url": "https://i.imgur.com/Zgjg0D1.png"
+  },
+  {
+    "id": 16,
+    "name": "API Rest",
+    "url": "https://i.imgur.com/QR3LQrG.png"
+  }
+]

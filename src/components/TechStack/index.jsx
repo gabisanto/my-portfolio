@@ -3,9 +3,11 @@ import WaveBottom from "../WaveBottom";
 import WaveTop from "../WaveTop";
 import styles from "./TechnologyStack.module.css";
 import { useInView } from "react-intersection-observer";
+import stack from "../../data/technologies.json";
 
 const TechnologyStack = () => {
   const { ref: techRef, inView: techInView } = useInView();
+
   return (
     <Box>
       <WaveTop mt={0} color={"var(--chakra-colors-techstack)"} />
@@ -51,7 +53,27 @@ const TechnologyStack = () => {
             className={`${techInView ? styles.goUp : ""}`}
           />
         </Flex>
-        <Box flexGrow={{ md: 1 }} height={{ base: "150px", md: "auto" }}></Box>
+        <Flex
+          flexGrow={{ md: 1 }}
+          direction={"column"}
+          justify={"center"}
+          align={{ base: "center" }}
+          alignSelf={"center"}
+          width={{ base: "80%", md: "60%" }}
+          height={{ base: "auto", md: "auto" }}
+          paddingTop={{ base: "20px", md: "0px" }}
+          paddingBottom={{ base: "20px", md: "0px" }}
+        >
+          <div className={styles.slider}>
+            <div className={styles.slidetrack}>
+              {stack.map((e) => (
+                <Box className={styles.slide}>
+                  <Image src={e.url} height="60px" alt="" />
+                </Box>
+              ))}
+            </div>
+          </div>
+        </Flex>
       </Flex>
       <WaveBottom mt={0} color={"var(--chakra-colors-techstack)"} />
     </Box>

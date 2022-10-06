@@ -65,7 +65,7 @@ const About = () => {
           height={{ base: "auto", md: "auto" }}
           paddingTop={{ base: "20px", md: "0px" }}
           color={"var(--chakra-colors-gray-600)"}
-          fontSize={{ base: "12px", md: "14px" }}
+          fontSize={{ base: "13px", md: "14px" }}
         >
           <Text width={"90%"} paddingBottom={"20px"} textAlign="justify">
             {text.aboutText[0]}
