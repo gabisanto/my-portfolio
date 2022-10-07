@@ -2,76 +2,97 @@
   {
     "id": 1,
     "name": "HTML",
-    "url": "https://i.imgur.com/VhtwtK5.png"
+    "url": "https://i.imgur.com/9NYUA5r.png",
+    "color": "#f36518"
   },
   {
     "id": 2,
     "name": "CSS",
-    "url": "https://i.imgur.com/5AcQeRd.png"
+    "url": "https://i.imgur.com/uHaEzuD.png",
+    "color": "#006bc0"
   },
   {
     "id": 3,
     "name": "JavaScript",
-    "url": "https://i.imgur.com/qOy8kxi.png"
+    "url": "https://i.imgur.com/ZqxtU3m.png",
+    "color": "#e4ba42"
+  },
+  {
+    "id": 4,
+    "name": "Docker",
+    "url": "https://i.imgur.com/0vjivnR.png",
+    "color": "#006bc0"
   },
   {
     "id": 5,
     "name": "Chakra UI",
-    "url": "https://i.imgur.com/4YnWmnU.png"
+    "url": "https://i.imgur.com/Hje7EJP.png",
+    "color": "#5fc9ca"
   },
   {
     "id": 6,
     "name": "Material UI",
-    "url": "https://i.imgur.com/RMy6aSO.png"
+    "url": "https://i.imgur.com/FBzIngg.png",
+    "color": "#4ab0f9"
   },
   {
     "id": 7,
     "name": "Tailwind CSS",
-    "url": "https://i.imgur.com/dYKFhQj.png"
+    "url": "https://i.imgur.com/1NzlElc.png",
+    "color": "#07b6d5"
   },
   {
     "id": 8,
     "name": "Sass",
-    "url": "https://i.imgur.com/kHfSlXi.png"
+    "url": "https://i.imgur.com/cN2HRjj.png",
+    "color": "#cd6699"
   },
   {
     "id": 9,
     "name": "React",
-    "url": "https://i.imgur.com/9l1sXkB.png"
+    "url": "https://i.imgur.com/y5miCWv.png",
+    "color": "#5adafd"
   },
   {
     "id": 10,
     "name": "Redux",
-    "url": "https://i.imgur.com/PgJNyQg.png"
+    "url": "https://i.imgur.com/W74QdjJ.png",
+    "color": "#764eb9"
   },
   {
     "id": 11,
     "name": "Next.js",
-    "url": "https://i.imgur.com/i6mGlJc.png"
+    "url": "https://i.imgur.com/AWz1Z3E.png",
+    "color": "#8edcd7"
   },
   {
     "id": 12,
     "name": "Node.js",
-    "url": "https://i.imgur.com/nlwDb93.png"
+    "url": "https://i.imgur.com/ZFwI6CX.png",
+    "color": "#6da75d"
   },
   {
     "id": 13,
     "name": "Express.js",
-    "url": "https://i.imgur.com/4TcpX9k.png"
+    "url": "https://i.imgur.com/xYzKVto.png",
+    "color": "#33414d"
   },
   {
     "id": 14,
     "name": "PostgreSQL",
-    "url": "https://i.imgur.com/IbzIAdY.png"
+    "url": "https://i.imgur.com/dy8NYw7.png",
+    "color": "#264c83"
   },
   {
     "id": 15,
     "name": "MongoDB",
-    "url": "https://i.imgur.com/Zgjg0D1.png"
+    "url": "https://i.imgur.com/2gdtBbZ.png",
+    "color": "#49a83c"
   },
   {
     "id": 16,
-    "name": "API Rest",
-    "url": "https://i.imgur.com/QR3LQrG.png"
+    "name": "MySQL",
+    "url": "https://i.imgur.com/fsYgBKo.png",
+    "color": "#ffa600"
   }
 ]
