@@ -1,8 +1,10 @@
 import { Box, Text, Flex, Image } from "@chakra-ui/react";
-import WaveBottom from "../WaveBottom";
+// import WaveBottom from "../WaveBottom";
+import LineBottom from "../LineBottom";
 import WaveTop from "../WaveTop";
 import styles from "./Projects.module.css";
 import { useInView } from "react-intersection-observer";
+import Carousel from "./Carousel";
 
 const Projects = () => {
   const { ref: projectRef, inView: projectInView } = useInView();
@@ -12,25 +14,25 @@ const Projects = () => {
       <Flex
         width={"100%"}
         background={"var(--chakra-colors-projects)"}
-        direction={{ base: "column", md: "row" }}
+        direction={"column"}
       >
         <Flex
           ref={projectRef}
-          direction={{ base: "row", md: "column" }}
-          width={{ base: "100%", md: "25%" }}
+          direction={"row"}
+          width={"100%"}
           paddingRight={{ md: "20px" }}
-          paddingBottom={{ base: "20px", md: "0px" }}
+          paddingBottom="20px"
           position={"relative"}
           justify={{ base: "center" }}
           align={{ base: "center" }}
           _after={{
             content: `""`,
-            height: { base: "2px", md: "70%" },
-            width: { base: "50%", md: "2px" },
+            height: "2px",
+            width: "50%",
             position: "absolute",
-            right: { base: "25%", md: "0" },
-            top: { md: "15%" },
-            bottom: { base: "0", md: "15%" },
+            right: "25%",
+            // top: { md: "15%" },
+            bottom: "0",
             backgroundColor: "var(--chakra-colors-gray-600)",
           }}
         >
@@ -48,13 +50,15 @@ const Projects = () => {
             paddingLeft={"20px"}
             paddingTop={"20px"}
             src="https://i.imgur.com/abVe9vT.png"
-            width={{ base: "25%", md: "100%" }}
+            width={"25%"}
             className={`${projectInView ? styles.goUp : ""}`}
           />
         </Flex>
-        <Box flexGrow={{ md: 1 }} height={{ base: "150px", md: "auto" }}></Box>
+        <Box height={"fit-content"}>
+          <Carousel />
+        </Box>
       </Flex>
-      <WaveBottom mt={0} color={"var(--chakra-colors-projects)"} />
+      <LineBottom mt={0} color={"var(--chakra-colors-projects)"} />
     </Box>
   );
 };

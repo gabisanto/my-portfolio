@@ -3,7 +3,6 @@ import WaveBottom from "../WaveBottom";
 import WaveTop from "../WaveTop";
 import styles from "./TechnologyStack.module.css";
 import { useInView } from "react-intersection-observer";
-import stack from "../../data/technologies.json";
 import Carousel from "./Carousel";
 
 const TechnologyStack = () => {
