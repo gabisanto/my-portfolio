@@ -1,6 +1,5 @@
 import React from "react";
 import styles from "./Card.module.css";
-import "./Card.css";
 import { Box, Link, Text } from "@chakra-ui/react";
 
 const Card = ({ data }) => {
