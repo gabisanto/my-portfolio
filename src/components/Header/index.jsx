@@ -22,7 +22,7 @@ const Header = () => {
         ></Player>
         <Flex
           direction={"column"}
-          height={{ base: "140px", in: "300px" }}
+          height={{ base: "150px", in: "300px" }}
           width={{ base: "180px", in: "200px" }}
           justify={"center"}
         >
@@ -36,7 +36,7 @@ const Header = () => {
             <p>{text.name}</p>
             <p>{text.name}</p>
           </Box>
-          <Box>{text.title}</Box>
+          <Box marginTop={"3px"}>{text.title}</Box>
           <Box className={`${styles.btn} ${styles.drawBorder}`}>
             <a
               href={
