@@ -1,26 +1,62 @@
 [
   {
     "id": 1,
-    "name": "Cine Melies",
-    "color": "#f19e38",
-    "github": "https://github.com/gabisanto/grupo_3_cineMelies",
-    "image": "https://i.imgur.com/ejFCJxG.jpg",
-    "deploy": "www.deploy.com",
-    "youtube": "youtube.com",
-    "technologies": ["javascript", "html", "css", "mysql"],
-    "date": "04-2022",
-    "duration": "7months"
+    "name": "Revista WOW",
+    "color": "#f0296e",
+    "github": "https://github.com/gabisanto/revista-wow",
+    "image": "https://i.imgur.com/9wWDZcY.jpg",
+    "deploy": "Made in Argentina with ♡",
+    "youtube": "gabisanto-portfolio.vercel.app",
+    "technologies": ["next.js", "chakra ui", "strapi", "mongo"],
+    "date": "09-2022",
+    "duration": "1month"
   },
   {
     "id": 2,
-    "name": "Revista WOW",
-    "color": "#f0296e",
-    "github": "github.com",
-    "image": "https://i.imgur.com/9wWDZcY.jpg",
-    "deploy": "www.deploy.com",
-    "youtube": "youtube.com",
-    "technologies": ["javascript", "next.js", "chakra ui", "strapi", "mongo"],
-    "date": "09-2022",
-    "duration": "1month"
+    "name": "La Vaca Chocha",
+    "color": "#bf665e",
+    "github": "https://github.com/gabisanto/la-vaca-chocha",
+    "image": "https://i.imgur.com/B1tkzJs.jpg",
+    "deploy": "Made in Argentina with ♡",
+    "youtube": "gabisanto-portfolio.vercel.app",
+    "technologies": ["pern stack", "redux", "material ui"],
+    "date": "08-2022",
+    "duration": "2weeks"
+  },
+  {
+    "id": 3,
+    "name": "Movie House",
+    "color": "#d89ac7",
+    "github": "https://github.com/gabisanto/the-movie-house",
+    "image": "https://i.imgur.com/wY80gwP.jpg",
+    "deploy": "Made in Argentina with ♡",
+    "youtube": "gabisanto-portfolio.vercel.app",
+    "technologies": ["pern stack", "redux", "material ui"],
+    "date": "08-2022",
+    "duration": "1week"
+  },
+  {
+    "id": 4,
+    "name": "Under the sea",
+    "color": "#56cac9",
+    "github": "https://github.com/gabisanto/under-the-sea",
+    "image": "https://i.imgur.com/SGDKqa5.jpg",
+    "deploy": "Made in Argentina with ♡",
+    "youtube": "gabisanto-portfolio.vercel.app",
+    "technologies": ["next.js", "strapi", "mongo"],
+    "date": "06-2022",
+    "duration": "2weeks"
+  },
+  {
+    "id": 5,
+    "name": "Cine Melies",
+    "color": "#f19e38",
+    "github": "https://github.com/gabisanto/cineMelies",
+    "image": "https://i.imgur.com/ejFCJxG.jpg",
+    "deploy": "Made in Argentina with ♡",
+    "youtube": "gabisanto-portfolio.vercel.app",
+    "technologies": ["javascript", "html", "css", "mysql"],
+    "date": "04-2022",
+    "duration": "7months"
   }
 ]

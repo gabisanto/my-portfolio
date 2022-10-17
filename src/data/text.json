@@ -1,28 +1,81 @@
 {
   "en": {
+    "language": "en",
     "icon": "https://i.imgur.com/FCQHlwA.png",
     "greeting": "hi! I'm ",
     "name": "gabi",
     "title": "fullstack developer",
-    "aboutTitle": ["about", "me"],
+    "cv": "Download CV",
+    "aboutTitle": ["About", "me"],
     "aboutText": [
       "All my life I said that I love things that make sense, thus I followed a career in science. However I realized it was not the right fit, and I kept looking for my call in life while I explored other passions like SCUBA diving and learning languages.",
       "Even though I grew up surrounded by computers, I never considered a career in anything related to IT until the COVID-19 pandemic gave me lots of hours to experiment and research. From that moment onwards, I started a fast-paced road into web development and programming. Now, I feel like the hours in a day are not enough to learn everything that I want.",
       "The logic filled career I have been looking for is within reach and I'm ready to walk that path with confidence and passion."
     ],
-    "footerTitle": "Let's talk!"
+    "techstach": ["tech", "stack"],
+    "projectsTitle": ["My", "projects"],
+    "footerTitle": "Let's talk!",
+    "footerElements": [
+      {
+        "name": "linkedin",
+        "image": "https://i.imgur.com/I3o1Pel.png",
+        "link": "https://www.linkedin.com/in/gabriela-santoriello/"
+      },
+      {
+        "name": "github",
+        "image": "https://i.imgur.com/PcDqYEi.png",
+        "link": "https://github.com/gabisanto"
+      },
+      {
+        "name": "gmail",
+        "image": "https://i.imgur.com/Xvey50W.png",
+        "link": "mailto:gabrielasantoriello@gmail.com"
+      },
+      {
+        "name": "whatsapp",
+        "image": "https://i.imgur.com/d9Yt80m.png",
+        "link": "https://wa.link/bf63ii"
+      }
+    ]
   },
   "es": {
+    "language": "es",
     "icon": "https://i.imgur.com/JdvM1EY.png",
     "greeting": "hola! soy ",
     "name": "gabi",
     "title": "desarrolladora fullstack",
-    "aboutTitle": ["sobre", "mí"],
+    "cv": "Descargar CV",
+    "aboutTitle": ["Sobre", "mí"],
     "aboutText": [
       "Toda mi vida dije que amo que las cosas tengan lógica, razón por la cual estudié ciencia e ingeniería. Sin embargo, sentí que no era la carrera que deseaba, y continué buscando mi vocación mientras desarrollaba otros intereses como buceo deportivo y aprendizaje de lenguas extranjeras.",
       "Aunque crecí rodeada de computadoras, nunca consideré IT como una opción hasta que la pandemia de COVID-19 me dio muchas horas para experimentar e investigar. A partir de allí, comencé un camino acelerado hacia el desarrollo web y la programación. Ahora siento que las horas del día no son suficientes para aprender todo lo que me interesa.",
       "La carrera llena de lógica que estuve buscando finalmente está frente a mí, y estoy lista para emprender este camino con confianza y pasión."
     ],
-    "footerTitle": "Hablemos!"
+
+    "techstach": ["tech", "stack"],
+    "projectsTitle": ["Mis", "proyectos"],
+    "footerTitle": "Hablemos!",
+    "footerElements": [
+      {
+        "name": "linkedin",
+        "image": "https://i.imgur.com/I3o1Pel.png",
+        "link": "https://www.linkedin.com/in/gabriela-santoriello/"
+      },
+      {
+        "name": "github",
+        "image": "https://i.imgur.com/PcDqYEi.png",
+        "link": "https://github.com/gabisanto"
+      },
+      {
+        "name": "gmail",
+        "image": "https://i.imgur.com/Xvey50W.png",
+        "link": "mailto:gabrielasantoriello@gmail.com"
+      },
+      {
+        "name": "whatsapp",
+        "image": "https://i.imgur.com/d9Yt80m.png",
+        "link": "https://wa.link/g20ijq"
+      }
+    ]
   }
 }

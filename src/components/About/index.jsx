@@ -45,7 +45,8 @@ const About = () => {
             color={"var(--chakra-colors-gray-600)"}
             className={`${styles.title} ${aboutInView ? styles.goUp : ""}`}
           >
-            About <span className={styles.span}>me</span>
+            {text.aboutTitle[0]}{" "}
+            <span className={styles.span}>{text.aboutTitle[1]}</span>
           </Text>
           <Image
             paddingLeft={"20px"}

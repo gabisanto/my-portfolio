@@ -32,7 +32,7 @@ const ProjectsCarousel = () => {
       <div className={styles.emblaprojects__viewport} ref={viewportRef}>
         <div className={styles.emblaprojects__container}>
           {data.map((item, index) => (
-            <Card data={item} />
+            <Card data={item} key={index} />
           ))}
         </div>
       </div>

@@ -1,13 +1,17 @@
 import { Box, Text, Flex, Image } from "@chakra-ui/react";
-// import WaveBottom from "../WaveBottom";
+import { useContext } from "react";
 import LineBottom from "../LineBottom";
 import WaveTop from "../WaveTop";
 import styles from "./Projects.module.css";
 import { useInView } from "react-intersection-observer";
 import Carousel from "./Carousel";
+import LanguageContext from "../../context/LanguageContext";
 
 const Projects = () => {
   const { ref: projectRef, inView: projectInView } = useInView();
+  const {
+    text: { projectsTitle },
+  } = useContext(LanguageContext);
   return (
     <Box>
       <WaveTop mt={0} color={"var(--chakra-colors-projects)"} />
@@ -31,7 +35,6 @@ const Projects = () => {
             width: "50%",
             position: "absolute",
             right: "25%",
-            // top: { md: "15%" },
             bottom: "0",
             backgroundColor: "var(--chakra-colors-gray-600)",
           }}
@@ -44,7 +47,8 @@ const Projects = () => {
             color={"var(--chakra-colors-gray-600)"}
             className={`${styles.title} ${projectInView ? styles.goUp : ""}`}
           >
-            <span className={styles.span}>My</span> projects
+            <span className={styles.span}>{projectsTitle[0]}</span>{" "}
+            {projectsTitle[1]}
           </Text>
           <Image
             paddingLeft={"20px"}
@@ -58,7 +62,7 @@ const Projects = () => {
           <Carousel />
         </Box>
       </Flex>
-      <LineBottom mt={0} color={"var(--chakra-colors-projects)"} />
+      <LineBottom mt={0} mb={0} color={"var(--chakra-colors-projects)"} />
     </Box>
   );
 };

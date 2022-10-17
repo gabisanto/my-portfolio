@@ -37,6 +37,18 @@ const Header = () => {
             <p>{text.name}</p>
           </Box>
           <Box>{text.title}</Box>
+          <Box className={`${styles.btn} ${styles.drawBorder}`}>
+            <a
+              href={
+                text.language === "en"
+                  ? "./Gabriela Santoriello Resume.pdf"
+                  : "./Gabriela Santoriello.pdf"
+              }
+              download
+            >
+              {text.cv}
+            </a>
+          </Box>
         </Flex>
       </Flex>
     </Box>
