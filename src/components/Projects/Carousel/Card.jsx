@@ -23,12 +23,19 @@ const Card = ({ data }) => {
             <label for="github">github</label>
           </Box>
         </Link>
-        <Box className={styles.checkbox}>
-          <input className={styles.input} type="checkbox" id="youtube" />
-          <label for="youtube">
-            <Link to={`${data.youtube}`}>youtube</Link>
-          </label>
-        </Box>
+        {data.demo !== "no data" && (
+          <Link href={data.demo} isExternal>
+            <Box className={styles.checkbox}>
+              <input
+                className={styles.input}
+                type="checkbox"
+                id="demo"
+                checked="checked"
+              />
+              <label for="demo">demo</label>
+            </Box>
+          </Link>
+        )}
       </Box>
       <Box className={styles.date}>
         <span className={styles.sidetitle}>Finish Date</span>
