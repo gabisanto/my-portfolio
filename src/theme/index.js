@@ -19,9 +19,9 @@ const theme = extendTheme({
     xxl: "1536px",
   },
   colors: {
-    about: "#FFBA69",
-    projects: "#FFDD7B",
-    techstack: "#ED9AD1",
+    about: "#ffcf96",
+    projects: "#ffe7a3",
+    techstack: "#f2b8df",
   },
   styles: {
     global: (props) => ({
